@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>My_Fab_Button</title>
+    <script type="text/javascript">
+
+    function my_fab() {
+        if(document.getElementById("manu1").style.opacity == 0){
+            my_triger();
+        }
+        else{
+            my_triger2();
+        }
+     
+    }
+    function my_triger() {
+        var x = document.getElementById("manu1");
+        var y = document.getElementById("manu2");
+        var z = document.getElementById("manu3"); 
+        x.style.transition = "opacity 0.5s ease-out 0s";
+        y.style.transition = "opacity 0.5s ease-out 0.3s";
+        z.style.transition = "opacity 0.5s ease-out 0.7s";
+        x.style.opacity= 1 ;
+        y.style.opacity= 1 ;
+        z.style.opacity= 1 ;
+    }
+    function my_triger2() {
+      var x = document.getElementById("manu1");
+        var y = document.getElementById("manu2");
+        var z = document.getElementById("manu3"); 
+        x.style.transition = "opacity 0.5s ease-out 0s";
+        y.style.transition = "opacity 0.5s ease-out 0.3s";
+        z.style.transition = "opacity 0.5s ease-out 0.7s";
+        x.style.opacity= 0 ;
+        y.style.opacity= 0 ;
+        z.style.opacity= 0 ;
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="material.css">
+</head>
+<body>
+
+
+        <button onclick="my_fab()" id="save">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+
+        <div id="hidden_buttons">
+            <li id="manu1"></li>
+            <li id="manu2"></li>
+            <li id="manu3"></li> 
+       </div>
+
+
+
+</body>
+</html>

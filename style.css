@@ -1,0 +1,96 @@
+
+#save > div{
+
+	height:4px;
+	background:rgb(1000,1000,1000);
+	margin: 3px 0px;
+	text-align: center;
+	border-radius: 4px;
+	transition:background 1s ease-out 0s;
+}
+#save:hover > div{
+	height:4px;
+	text-align: center;
+	background:rgb(50,50,50);
+	margin: 3px 0px;
+	border-radius: 4px;
+	transition:background 1s ease-out 0s;
+}
+#save{
+	background: rgb(100,200,100);
+	height: 40px;
+	width: 40px;
+	border-width:0px;
+	border-radius: 50%;
+	border-color: rgb(100,100,200);
+	transition:background 1s ease-out 0s;
+	cursor: pointer;
+	background: wigth;
+}
+
+#save:hover{
+	background: skyblue;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	transition:background 1s ease-out 0s;
+}
+#manu1{
+	margin:10px;
+	margin-left: 0px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	list-style: none;
+	background: rgb(100,100,200);
+	border-radius: 50%;
+	opacity: 0;
+	transition:background 1s ease-out 0s;
+	
+}
+#manu2{
+	padding-top: 0px;
+	margin:10px;
+	margin-left: 0px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	list-style: none;
+	font-family: 'Copperplate Gothic';
+	text-align: center;
+	background: rgb(100,100,200);
+	border-radius: 50%;
+	opacity: 0;
+	transition:background 1s ease-out 0s;
+}
+#manu3{
+	
+	margin:10px;
+	margin-left: 0px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	list-style: none;
+	font-family: 'Copperplate Gothic';
+	text-align: center;
+	background: rgb(100,100,200);
+	border-radius: 50%;
+	opacity: 0;
+	transition:background 1s ease-out 0s;
+}
+
+#manu1:hover{
+	background:rgb(50,50,50);
+	transition:background 1s ease-out 0s;
+}
+
+#manu2:hover{ 
+	background:rgb(50,50,50);
+	transition:background 1s ease-out 0s;
+}
+
+#manu3:hover{
+	transition:background 3s liner 0s;
+	background:rgb(50,50,50);
+	
+}
