@@ -1,4 +1,5 @@
 
+
 #save > div{
 
 	height:4px;
@@ -26,6 +27,7 @@
 	transition:background 1s ease-out 0s;
 	cursor: pointer;
 	background: wigth;
+	box-shadow:2px 2px 9px #888888;
 }
 
 #save:hover{
@@ -34,6 +36,7 @@
 	width: 40px;
 	border-radius: 50%;
 	transition:background 1s ease-out 0s;
+	box-shadow:1px 1px 3px #888888;
 }
 #manu1{
 	margin:10px;
@@ -46,7 +49,7 @@
 	border-radius: 50%;
 	opacity: 0;
 	transition:background 1s ease-out 0s;
-	
+	box-shadow:2px 2px 9px #888888;
 }
 #manu2{
 	padding-top: 0px;
@@ -62,6 +65,7 @@
 	border-radius: 50%;
 	opacity: 0;
 	transition:background 1s ease-out 0s;
+	box-shadow:2px 2px 9px #888888;
 }
 #manu3{
 	
@@ -77,20 +81,23 @@
 	border-radius: 50%;
 	opacity: 0;
 	transition:background 1s ease-out 0s;
+	box-shadow:2px 2px 9px #888888;
 }
 
 #manu1:hover{
 	background:rgb(50,50,50);
 	transition:background 1s ease-out 0s;
+	box-shadow:1px 1px 3px #888888;
 }
 
 #manu2:hover{ 
 	background:rgb(50,50,50);
 	transition:background 1s ease-out 0s;
+	box-shadow:1px 1px 3px #888888;
 }
 
 #manu3:hover{
 	transition:background 3s liner 0s;
 	background:rgb(50,50,50);
-	
+	box-shadow:1px 1px 3px #888888;
 }
